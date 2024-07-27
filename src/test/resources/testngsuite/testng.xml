@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" thread-count="4" name="Suite">
+	
+  <test name="Chrome">
+    <classes>
+      <class name="com.test.Checkbox"/>
+      <class name="com.test.DragAndDrop"/>
+      <class name="com.test.Facebook"/>
+      <class name="com.test.FacebookGet"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Firefox">
+    <classes>
+      <class name="com.test.Checkbox"/>
+      <class name="com.test.DragAndDrop"/>
+      <class name="com.test.Facebook"/>
+      <class name="com.test.FacebookGet"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
